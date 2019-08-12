@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: devopsjx20-staging
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: devopsjx20-staging
+  pipelines: {}
